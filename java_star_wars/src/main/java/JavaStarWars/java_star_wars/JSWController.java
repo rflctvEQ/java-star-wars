@@ -9,4 +9,12 @@ public class JSWController {
     public String index() {
         return "Greetings from Spring Boot!";
     }
+
+    @GetMapping("/api/jedi")
+    public String[] jedi() {
+
+        String[] jediStrings = {"Yoda", "Obi-Wan", "Anakin"};
+
+        return jediStrings;
+    }
 }
