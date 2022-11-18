@@ -1,0 +1,32 @@
+:host {
+  .jumbotron {
+    background-image: url("./../../../assets/images/hyperdrive.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+  }
+
+  .jumbotron-title-wrapper {
+    text-align: center;
+    justify-content: center;
+    margin: auto !important;
+    padding: 10% !important;
+  }
+
+  .jumbotron-title {
+    color: yellow;
+    font-family: "star-wars", sans-serif;
+    font-size: 8rem;
+
+    margin-top: -1.5rem !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .star-wars {
+    margin-left: 2rem !important;
+  }
+}
